@@ -1,0 +1,20 @@
+{
+    "name": "medium-unlocker",
+    "version": "1.0.0",
+    "description": "medium 블로그 유료글 해제하는 익스텐션",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.235",
+        "@types/node": "^18.16.3",
+        "typescript": "^5.0.2",
+        "vite": "^4.3.2",
+        "vite-plugin-chrome-extension": "^0.0.7"
+    },
+    "author": "hoon",
+    "license": "ISC"
+}
