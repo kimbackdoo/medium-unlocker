@@ -1,0 +1,17 @@
+{
+    "name": "Medium Unlocker",
+    "description": "Unlocks Medium articles for free.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["tabs", "cookies"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.ts"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content-script.ts"]
+        }
+    ]
+}
